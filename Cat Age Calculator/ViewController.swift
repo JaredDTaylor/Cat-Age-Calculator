@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var lblCalcAge: UILabel!
+    @IBOutlet var txtAge: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,5 +24,18 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func Submit(sender: AnyObject) {
+        println("Hello World!")
+        var enteredAge = txtAge.text.toInt()
+        if enteredAge != nil {
+            var catYears = enteredAge! * 7
+            // var declares a variable
+            // adding the ! tells xcode that the error is ok
+            lblCalcAge.text = "Your cat is \(catYears) in cat years."
+        }else{
+            lblCalcAge.text = "Please enter a number in the box."
+        }
+        
+    }
 }
 

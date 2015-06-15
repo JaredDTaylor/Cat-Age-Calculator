@@ -13,6 +13,7 @@
 		174553BF1B287DCE004A7C65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 174553BE1B287DCE004A7C65 /* Images.xcassets */; };
 		174553C21B287DCE004A7C65 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174553C01B287DCE004A7C65 /* LaunchScreen.xib */; };
 		174553CE1B287DCE004A7C65 /* Cat_Age_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174553CD1B287DCE004A7C65 /* Cat_Age_CalculatorTests.swift */; };
+		17D632401B29D37600CBD1A8 /* IMG_0415.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 17D6323F1B29D37600CBD1A8 /* IMG_0415.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		174553C71B287DCE004A7C65 /* Cat Age CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cat Age CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		174553CC1B287DCE004A7C65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		174553CD1B287DCE004A7C65 /* Cat_Age_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_Age_CalculatorTests.swift; sourceTree = "<group>"; };
+		17D6323F1B29D37600CBD1A8 /* IMG_0415.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0415.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				174553BB1B287DCE004A7C65 /* Main.storyboard */,
 				174553BE1B287DCE004A7C65 /* Images.xcassets */,
 				174553C01B287DCE004A7C65 /* LaunchScreen.xib */,
+				17D6323F1B29D37600CBD1A8 /* IMG_0415.JPG */,
 				174553B51B287DCE004A7C65 /* Supporting Files */,
 			);
 			path = "Cat Age Calculator";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				174553BD1B287DCE004A7C65 /* Main.storyboard in Resources */,
+				17D632401B29D37600CBD1A8 /* IMG_0415.JPG in Resources */,
 				174553C21B287DCE004A7C65 /* LaunchScreen.xib in Resources */,
 				174553BF1B287DCE004A7C65 /* Images.xcassets in Resources */,
 			);
@@ -411,6 +415,7 @@
 				174553D31B287DCE004A7C65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		174553D41B287DCE004A7C65 /* Build configuration list for PBXNativeTarget "Cat Age CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				174553D61B287DCE004A7C65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
